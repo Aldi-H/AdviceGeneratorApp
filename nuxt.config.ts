@@ -2,12 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
-  // components: [
-  //   {
-  //     path: "~/components",
-  //     pathPrefix: false,
-  //   },
-  // ],
+
+  runtimeConfig: {
+    public: {
+      BASE_URL: process.env.BASE_URL,
+    },
+  },
 
   css: ["@/assets/css/tailwind.css"],
 });
