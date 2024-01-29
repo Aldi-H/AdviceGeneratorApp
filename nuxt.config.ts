@@ -2,6 +2,18 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ["@nuxtjs/tailwindcss"],
+  app: {
+    head: {
+      title: "Advice Generator",
+      link: [
+        {
+          rel: "icon",
+          type: "image/png",
+          href: "/favicon-32x32.png",
+        },
+      ],
+    },
+  },
 
   runtimeConfig: {
     public: {
