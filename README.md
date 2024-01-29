@@ -42,7 +42,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repositories](https://github.com/Aldi-H/AdviceGeneratorApp.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://cheery-longma-118f12.netlify.app/)
 
 ## My process
 
